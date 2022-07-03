@@ -1,0 +1,75 @@
+body {
+    background-color: #354F52;
+}
+.cuartoDos,
+.cuartoCuatro {
+    background-color: white;
+}
+.cuartoUno,
+.footer {
+    color: white;
+}
+a {
+    color: white;
+}
+a:hover{
+    color: #CAD2C5;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ul{
+    list-style-type: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* Trabajaremos en el cuarto N1 */
+.cuartoUno{
+    display: flex;
+    padding: 100px;
+}
+.cuartoUno img{
+    height: auto;
+    width: 500px;
+}
+.text h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.text p{
+    font-size: 18px;
+}
+.button1{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #354F52;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    border-radius: 8px;
+}
+.button1:hover{
+    background-color: #84A98C;
+}
+
+/* Voy a trabajar en el cuarto N2 */
+.cuartoDos-container{
+    display: flex;
+}
+.cuartoDos img {
+    flex: 1;
+    height: 200px;
+    width: 200px;
+}
+
+.footer{
+    text-align: center;
+}
