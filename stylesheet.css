@@ -34,6 +34,7 @@ ul{
 /* Trabajaremos en el cuarto N1 */
 .cuartoUno{
     display: flex;
+    justify-content: space-between;
     padding: 100px;
 }
 .cuartoUno img{
