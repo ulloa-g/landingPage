@@ -1,6 +1,7 @@
 body {
     background-color: #354F52;
 }
+
 .cuartoDos,
 .cuartoCuatro {
     background-color: white;
@@ -30,7 +31,7 @@ ul{
     gap: 24px;
 }
 
-/* Trabajaremos en el cuarto N1 */
+/* Trabajaremos en el cuarto N1 ------------------------------------------- */
 .cuartoUno{
     padding: 100px;
     display: flex;
@@ -49,11 +50,11 @@ ul{
     font-weight: bold;
 }
 .text p{
-    font-size: 18px;
+    font-size: 22px;
 }
 .button1{
     border: 3px solid #a3b18a;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     background-color: #354F52;
     color: white;
@@ -65,29 +66,43 @@ ul{
     background-color: #84A98C;
 }
 
-/* Voy a trabajar en el cuarto N2 */
+/* Voy a trabajar en el cuarto N2 ------------------------------------------- */
 .cuartoDos{
     padding: 100px;
 }
 .cuartoDos h1{
+    margin-bottom: 90px;
     text-align: center;
 }
 .cuartoDos-container{
     margin: 0px;
     display: flex;
+    justify-content: space-between;
 }
-.cuartoDos img {
-    border-radius: 30px;
-    padding: 20px;
-    flex: 1;
-    height: 200px;
-    width: 200px;
-}
+div.gallery {
+    border-radius: 20px;
+    margin: 5px;
+    float: left;
+    width: 350px;
+  }
+  
+  div.gallery img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+  }
+
 .cuartoDos h1{
     color: #344e41;
 }
 
-/* Voy a trabajar en el cuarto N3 */
+/* Voy a trabajar en el cuarto N3 --------------------------------------------  */
 .cuartoTres {
     background-color: #a3b18a;
     padding: 100px;
@@ -102,7 +117,7 @@ ul{
     margin-right: 100px;
 }
 
-/* Cuarto N4*/
+/* Voy a trabajar en el cuarto N4 ------------------------------------------- */
 .cuartoCuatro {
     padding: 100px;
 }
@@ -124,7 +139,7 @@ ul{
     background-color: #a3b18a;
     color: black;
     height: 40px;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     padding: 8px 32px;
     text-align: center;
@@ -135,7 +150,8 @@ ul{
 }
 
 .footer{
-    padding: 10px;
+    padding: 15px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
+
